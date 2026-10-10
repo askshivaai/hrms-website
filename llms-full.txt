@@ -1,0 +1,117 @@
+# HRMS — full product facts (plain text)
+
+Positioning: People operations you can explain.
+Category: HR and payroll review platform for Indian employers (business owners, HR and payroll teams, managers and employees).
+Offer: sample-data evaluation. Primary action: request a sample-data walkthrough at https://hrms.businessos.si/contact/. No public price.
+Availability: For evaluation with sample data. Production authentication and independent payroll-rule validation remain outstanding. Do not upload real employee or salary information to the demo.
+Evidence: a local review started the core platform with 24 seeded employees and 651 recorded events, and exercised supporting AI, geolocation and document services. This is evidence of local evaluation, not a production customer result.
+Leadership: Divya Prakash Jha (CEO), Vaibhav Jain (COO), Zeeshan Khan (CMO).
+
+## Capabilities
+### Employee and people operations (https://hrms.businessos.si/product/people/)
+Keep employee details, reporting structure and people processes close together.
+What to explore: Maintain employee profiles and organisation structure. Track onboarding cases and tasks. Publish notices and review acknowledgements. Run review cycles and track employee goals.
+Where this helps: For HR administrators and managers coordinating everyday employee work.
+Availability: The current login is a demo persona selector. Real identity and access enforcement must be completed before sensitive data is used.
+
+### Leave and attendance (https://hrms.businessos.si/product/time/)
+Manage leave policies and balances, holiday calendars and attendance corrections.
+What to explore: Review leave requests and balances. Maintain relevant holiday calendars. Inspect attendance and regularisation requests.
+Where this helps: For teams handling monthly time inputs and employee queries.
+Availability: Location-based features need deployment-specific permission and privacy checks. Do not advertise automatic tracking on every device.
+
+### Payroll review (https://hrms.businessos.si/product/payroll/)
+Review salary structures, inputs, adjustments and payroll stages with the history behind them.
+What to explore: Define and revise salary structures. Capture run inputs and adjustments. Calculate, review, approve and lock runs. Inspect effective rule versions and corrections.
+Where this helps: For payroll makers and finance reviewers who need to understand the calculation.
+Availability: An India rule pack exists. This does not establish current statutory correctness, filing support or legal certification. Validate applicable rules with your payroll adviser.
+
+### Documents and explanations (https://hrms.businessos.si/product/documents/)
+Render payslip PDFs and twelve standard HR letter types from supplied information.
+What to explore: Create offer, appointment and confirmation letters. Prepare increment, promotion and transfer letters. Render relieving, experience and other supported certificates. Evaluate payslip explanations against the numeric record.
+Where this helps: For HR teams preparing standard documents for review.
+Availability: AI explanations and automatic core-to-document retrieval are partially connected. Review every generated document before issue.
+
+### History and review controls (https://hrms.businessos.si/product/history/)
+Inspect events, applicable rule versions and a built-in check for changes to the recorded sequence.
+What to explore: Review payroll and employee events. Use maker-checker stages for rule changes. Run the tenant audit-history check.
+Where this helps: For administrators and reviewers who need an explanation trail.
+Availability: The history check is tamper-evident, not independently immutable. It is not an audit certificate or a compliance guarantee.
+
+## Frequently asked questions
+Q: Is HRMS ready for live payroll?
+A: The source supports meaningful HR and payroll workflows, and a seeded local core was tested. Production authentication, deployment checks and independent payroll-rule validation are still needed. Use sample data for evaluation.
+
+Q: Does it support Indian payroll?
+A: The source includes an India rule pack and versioned rule handling. Your applicable statutory rules and output must be checked before a live payroll run.
+
+Q: Does it file returns or transfer salaries?
+A: No verified statutory-filing or bank-disbursement connection was established. Do not assume that approving a payroll run pays employees.
+
+Q: What does the history check tell us?
+A: It checks the sequence of recorded events for changes. It helps investigate records, but is not an independent audit or compliance certificate.
+
+Q: Can employees use it themselves?
+A: Employee portal screens and workflows exist. The current evaluation uses demo personas, so production authentication is a separate requirement.
+
+Q: Does AI decide salaries?
+A: Payroll has deterministic calculation and rule paths. AI explanation features are separate and partially implemented; generated wording needs review.
+
+Q: Are voice interviews available?
+A: Interview logic exists, but real-time voice transport has unfinished provider methods. Live voice interviews are not available.
+
+Q: Can we use it across companies?
+A: Company administration and comparison workflows exist. Tenant access and deployment must be validated for your live operating model.
+
+Q: Is the mobile app ready?
+A: Flutter source exists, but native-device execution was not verified in the review.
+
+Q: Can we bring our actual employee spreadsheet to the demo?
+A: Use anonymised examples or sample data. Real employee information should wait until production identity, permissions and privacy controls have been verified.
+
+Q: Is there a public price?
+A: No public price is listed. Ask for a written scope and price for your requirements before making a purchase decision.
+
+Q: What should we bring to the walkthrough?
+A: One anonymised example of the work, the people who handle it and the result you need. Avoid passwords, account keys, private customer records or employee details.
+
+## Claims HRMS does not make
+- 100% compliant payroll
+- Certified immutable records
+- Guaranteed salary accuracy
+- Bank payments and statutory filing included
+- Live voice recruitment
+- Enterprise-ready authentication
+
+## Articles
+### Why has my salary changed? The question payroll should answer
+URL: https://hrms.businessos.si/insights/why-has-my-salary-changed/
+When an employee asks why their salary changed, the answer sits across records, leave, attendance and rules. Here is what a complete, reviewable answer needs.
+
+### How a payroll run moves from inputs to a locked result
+URL: https://hrms.businessos.si/insights/payroll-run-from-inputs-to-locked-result/
+A payroll run is a sequence, not a single button. A plain guide to input review, calculation, approval and locking, and what each stage should let you inspect.
+
+### Effective-dated payroll rules, explained in plain English
+URL: https://hrms.businessos.si/insights/effective-dated-payroll-rules-explained/
+What effective-dated payroll rules are, why overwriting a rule loses history, and how maker-checker approval adds a second pair of eyes before a change applies.
+
+### Tamper-evident vs immutable: what an audit-history check can tell you
+URL: https://hrms.businessos.si/insights/tamper-evident-vs-immutable-audit-history/
+Tamper-evident and immutable are not the same. What an audit-history check in HR software can tell you, what it cannot, and what to ask before relying on it.
+
+### How to evaluate HR software with sample data, not real spreadsheets
+URL: https://hrms.businessos.si/insights/how-to-evaluate-hrms-with-sample-data/
+A practical guide to evaluating HRMS software without uploading real employee data: what to prepare, what to ask, and what a written scope should include.
+
+### Leave and attendance: why time inputs need their own review path
+URL: https://hrms.businessos.si/insights/leave-and-attendance-review-path/
+Leave and attendance errors become salary questions later. Why time inputs need a review path covering regularisation, holiday calendars and leave balances.
+
+### Spreadsheets and message threads vs one connected HR record
+URL: https://hrms.businessos.si/insights/hr-spreadsheets-vs-connected-hrms/
+Spreadsheets, message threads and a separate payroll tool, or one connected HR record? A fair comparison of both approaches and who each one suits.
+
+### Why we publish our limits next to our claims
+URL: https://hrms.businessos.si/insights/why-we-publish-our-limits/
+People operations you can explain applies to how we describe the product too. Why HRMS states availability and limits beside every claim, and what we leave out.

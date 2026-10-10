@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://hrms.businessos.si/sitemap.xml
+# AI-readable summaries: https://hrms.businessos.si/llms.txt and https://hrms.businessos.si/llms-full.txt

@@ -1,0 +1,43 @@
+# HRMS
+
+> HRMS (Human Capital Operating System) is an HR and payroll review platform for Indian employers. Positioning: "People operations you can explain." It brings employee details, leave, attendance and payroll review into one platform, with a recorded history of what changed and which rules were used. It is currently offered as a sample-data evaluation only.
+
+Important: For evaluation with sample data. Production authentication and independent payroll-rule validation remain outstanding. Do not upload real employee or salary information to the demo. No public price is listed. HRMS does not claim compliant payroll, certified immutable records, guaranteed accuracy, statutory filing, bank salary transfers, live voice recruitment or enterprise-ready authentication.
+
+## Core pages
+- [HRMS — People operations you can explain.](https://hrms.businessos.si/): Bring employee details, leave, attendance and payroll review into one platform, with a history that helps your team understand what changed and which rules were used.
+- [HR and payroll review platform overview | HRMS](https://hrms.businessos.si/product/): Employee records, leave and attendance, payroll review, HR documents and a recorded history—six capabilities connected so a result can be traced back to its inputs and rules.
+- [How HRMS works](https://hrms.businessos.si/how-it-works/): Explore the workflow, what you can evaluate and what still needs configuration or development.
+- [HRMS: availability and evidence](https://hrms.businessos.si/trust/): See what the source review established, which demonstrations use sample data and what needs checking before live use.
+- [Evaluate HRMS](https://hrms.businessos.si/evaluation/): Start with a workflow question. Confirm available features, open work and a written scope before a paid engagement.
+- [HRMS questions and answers](https://hrms.businessos.si/faqs/): Understand capabilities, current limits and the right next step before you decide.
+- [Why HRMS exists](https://hrms.businessos.si/about/): People operations you can explain. Understand the problem and the product point of view.
+- [Talk about your HRMS workflow](https://hrms.businessos.si/contact/): Share an anonymised example of the work you want to explore. No private records or passwords are needed.
+
+## Capabilities
+- [Employee records and people operations | HRMS](https://hrms.businessos.si/product/people/): Keep employee details, reporting structure and people processes close together: profiles, organisation chart, onboarding, notices, review cycles and goals.
+- [Leave and attendance management | HRMS](https://hrms.businessos.si/product/time/): Manage leave policies and balances, holiday calendars and attendance regularisation requests, with a review path before time inputs reach payroll.
+- [Payroll review with rule history | HRMS](https://hrms.businessos.si/product/payroll/): Review salary structures, run inputs, adjustments and payroll stages—calculate, approve and lock—with effective rule versions and corrections behind every result.
+- [Payslip PDFs and HR letter templates | HRMS](https://hrms.businessos.si/product/documents/): Render payslip PDFs and twelve standard HR letter types—offer, appointment, confirmation, increment, promotion, transfer, relieving and experience—from supplied details.
+- [Audit history and maker-checker controls | HRMS](https://hrms.businessos.si/product/history/): Inspect payroll and employee events, effective-dated rule versions with maker-checker approval, and a built-in tamper-evident check of the recorded sequence.
+
+## Audiences
+- [Is HRMS right for you? | HRMS](https://hrms.businessos.si/who-it-helps/): Find the situation closest to yours and explore a practical workflow before deciding.
+- [HR and payroll visibility for business owners | HRMS](https://hrms.businessos.si/who-it-helps/business-owners/): Growing headcount makes informal approvals and scattered records harder to manage. Review employee information, people workflows and payroll stages in one shared environment.
+- [Payroll review software for HR and payroll teams | HRMS](https://hrms.businessos.si/who-it-helps/hr-and-payroll-teams/): A salary or leave query often needs the employee history, attendance inputs and applicable rules together. Use recorded changes and review stages before approving a result.
+- [Employee self-service and leave approvals | HRMS](https://hrms.businessos.si/who-it-helps/managers-and-employees/): Employees need a place to check information. Managers need a clearer way to review requests. Explore the employee portal, leave workflows, goals and notices.
+
+## Insights
+- [Why Has My Salary Changed? Answering Payroll Queries | HRMS](https://hrms.businessos.si/insights/why-has-my-salary-changed/): When an employee asks why their salary changed, the answer sits across records, leave, attendance and rules. Here is what a complete, reviewable answer needs.
+- [Payroll Run Process: From Inputs to a Locked Run | HRMS](https://hrms.businessos.si/insights/payroll-run-from-inputs-to-locked-result/): A payroll run is a sequence, not a single button. A plain guide to input review, calculation, approval and locking, and what each stage should let you inspect.
+- [Effective-Dated Payroll Rules in Plain English | HRMS](https://hrms.businessos.si/insights/effective-dated-payroll-rules-explained/): What effective-dated payroll rules are, why overwriting a rule loses history, and how maker-checker approval adds a second pair of eyes before a change applies.
+- [HR Software Audit Trails: Tamper-Evident vs Immutable | HRMS](https://hrms.businessos.si/insights/tamper-evident-vs-immutable-audit-history/): Tamper-evident and immutable are not the same. What an audit-history check in HR software can tell you, what it cannot, and what to ask before relying on it.
+- [How to Evaluate HRMS Software With Sample Data | HRMS](https://hrms.businessos.si/insights/how-to-evaluate-hrms-with-sample-data/): A practical guide to evaluating HRMS software without uploading real employee data: what to prepare, what to ask, and what a written scope should include.
+- [Leave and Attendance Management: A Review Path | HRMS](https://hrms.businessos.si/insights/leave-and-attendance-review-path/): Leave and attendance errors become salary questions later. Why time inputs need a review path covering regularisation, holiday calendars and leave balances.
+- [HR Spreadsheet vs HRMS: An Honest Comparison | HRMS](https://hrms.businessos.si/insights/hr-spreadsheets-vs-connected-hrms/): Spreadsheets, message threads and a separate payroll tool, or one connected HR record? A fair comparison of both approaches and who each one suits.
+- [Our HRMS Product Philosophy: Publishing Our Limits | HRMS](https://hrms.businessos.si/insights/why-we-publish-our-limits/): People operations you can explain applies to how we describe the product too. Why HRMS states availability and limits beside every claim, and what we leave out.
+
+## Optional
+- [Full plain-text fact file](https://hrms.businessos.si/llms-full.txt)
+- [Product fact sheet](https://hrms.businessos.si/ai/)
+- [Brochure PDF](https://hrms.businessos.si/downloads/HRMS-Brochure-Sample-Data-Preview.pdf)

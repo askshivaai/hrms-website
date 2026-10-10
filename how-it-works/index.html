@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How HRMS works</title>
+<meta name="description" content="Explore the workflow, what you can evaluate and what still needs configuration or development.">
+<link rel="canonical" href="https://hrms.businessos.si/how-it-works/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0C2944">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HRMS">
+<meta property="og:title" content="How HRMS works">
+<meta property="og:description" content="Explore the workflow, what you can evaluate and what still needs configuration or development.">
+<meta property="og:url" content="https://hrms.businessos.si/how-it-works/">
+<meta property="og:image" content="https://hrms.businessos.si/img/og-default.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How HRMS works">
+<meta name="twitter:description" content="Explore the workflow, what you can evaluate and what still needs configuration or development.">
+<meta name="twitter:image" content="https://hrms.businessos.si/img/og-default.jpg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap&text=HRMS">
+<link rel="stylesheet" href="/css/site.css?v=mv22nhzv">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://hrms.businessos.si/#org","name":"HRMS","url":"https://hrms.businessos.si/","logo":"https://hrms.businessos.si/img/brand/hrms-icon-512.png","slogan":"People operations you can explain."},{"@type":"WebSite","@id":"https://hrms.businessos.si/#site","name":"HRMS","url":"https://hrms.businessos.si/","publisher":{"@id":"https://hrms.businessos.si/#org"},"inLanguage":"en-IN"},{"@type":"WebPage","@id":"https://hrms.businessos.si/how-it-works/#page","url":"https://hrms.businessos.si/how-it-works/","name":"How HRMS works","description":"Explore the workflow, what you can evaluate and what still needs configuration or development.","isPartOf":{"@id":"https://hrms.businessos.si/#site"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hrms.businessos.si/"},{"@type":"ListItem","position":2,"name":"How it works","item":"https://hrms.businessos.si/how-it-works/"}]},{"@type":"HowTo","name":"How to evaluate HRMS with one workflow","step":[{"@type":"HowToStep","position":1,"name":"Build the employee picture"},{"@type":"HowToStep","position":2,"name":"Bring time and people workflows together"},{"@type":"HowToStep","position":3,"name":"Review payroll in stages"},{"@type":"HowToStep","position":4,"name":"Keep a history you can inspect"}]}]}</script>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header" data-header>
+  <div class="wrap header-inner">
+    <a class="logo " href="/" aria-label="HRMS home">
+  <img src="/img/brand/hrms-icon-96.png" width="40" height="40" alt="" />
+  <span class="logo-word"><span class="logo-name">HRMS</span><span class="logo-tag">Human Capital Operating System</span></span>
+</a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main">
+      <ul class="nav-list"><li class="has-dd">
+    <button class="nav-link dd-toggle" aria-expanded="false" aria-controls="dd-product">Product<svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="dd" id="dd-product"><ul><li><a href="/product/"><strong>Product overview</strong><span>Six capabilities, one history</span></a></li><li><a href="/product/people/"><strong>Employee and people operations</strong><span>Records from joining to exit</span></a></li><li><a href="/product/time/"><strong>Leave and attendance</strong><span>A review path for time inputs</span></a></li><li><a href="/product/payroll/"><strong>Payroll review</strong><span>More than a final number</span></a></li><li><a href="/product/documents/"><strong>Documents and explanations</strong><span>Payslips and HR letters</span></a></li><li><a href="/product/history/"><strong>History and review controls</strong><span>Know what changed</span></a></li><li><a href="/walkthrough/"><strong>Watch the walkthrough</strong><span>Explainer and recordings</span></a></li></ul></div>
+  </li><li class="has-dd">
+    <button class="nav-link dd-toggle" aria-expanded="false" aria-controls="dd-who-it-helps">Who it helps<svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="dd" id="dd-who-it-helps"><ul><li><a href="/who-it-helps/business-owners/"><strong>For business owners</strong><span>See how the people side runs</span></a></li><li><a href="/who-it-helps/hr-and-payroll-teams/"><strong>For HR and payroll teams</strong><span>Review the right record</span></a></li><li><a href="/who-it-helps/managers-and-employees/"><strong>For managers and employees</strong><span>Requests that are easy to follow</span></a></li></ul></div>
+  </li><li><a class="nav-link is-active" href="/how-it-works/" aria-current="page">How it works</a></li><li><a class="nav-link" href="/trust/">Trust & availability</a></li><li><a class="nav-link" href="/evaluation/">Evaluation</a></li><li class="has-dd">
+    <button class="nav-link dd-toggle" aria-expanded="false" aria-controls="dd-about">About<svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="dd" id="dd-about"><ul><li><a href="/about/"><strong>About HRMS</strong><span>Our product point of view</span></a></li><li><a href="/insights/"><strong>Insights</strong><span>Articles on HR and payroll review</span></a></li><li><a href="/brochure/"><strong>Brochure</strong><span>Preview or download the PDF</span></a></li><li><a href="/faqs/"><strong>FAQs</strong><span>Questions worth asking</span></a></li></ul></div>
+  </li></ul>
+      <div class="nav-mobile-cta"><a class="btn btn-primary" href="/contact/" data-track="cta_click" data-label="Request a sample-data walkthrough" ><span>Request a sample-data walkthrough</span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><p class="small">For evaluation with sample data. Production authentication and independent payroll-rule validation remain outstanding. Do not upload real employee or salary information to the demo.</p></div>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-sm header-cta btn-primary" href="/contact/" data-track="header_cta" data-label="Request a sample-data walkthrough" ><span>Request a sample-data walkthrough</span></a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="primary-nav" data-menu-btn><span class="sr-only" data-menu-label>Open menu</span><svg class="ic i-open" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="ic i-close" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-hero ">
+  <div class="wrap page-hero-grid">
+    <div class="page-hero-copy reveal">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">How it works</li></ol></nav>
+      <p class="eyebrow ">How it works</p>
+      <h1>Start with one workflow. <em>Follow it through.</em></h1>
+      <p class="lede">A useful walkthrough should show a complete journey and make the gaps clear. Here is the path to explore with HRMS.</p>
+      <div class="actions"><a class="btn btn-primary" href="/contact/" data-track="cta_click" data-label="Request a sample-data walkthrough" ><span>Request a sample-data walkthrough</span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="tlink" href="#" data-explainer data-track="link_click" data-label="Play the short explainer"><span>Play the short explainer</span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z" fill="currentColor" stroke="none"/></svg></a></div>
+    </div>
+    <div class="page-hero-aside reveal"><div class="hero-koala-solo"><img class="koala " src="/img/mascot/koala-10-900.webp" srcset="/img/mascot/koala-10-520.webp 350w, /img/mascot/koala-10-900.webp 606w" sizes="(max-width: 720px) 40vw, 300px" width="606" height="900" alt="The HRMS koala presenting a workflow document" fetchpriority="high" decoding="async"></div></div>
+  </div>
+</section><section class="sec journey" aria-labelledby="hiw-journey" data-journey>
+  <div class="wrap">
+    <div class="sec-head reveal"><p class="eyebrow ">Follow one workflow through</p><h2 id="hiw-journey">Four steps, one connected record</h2></div>
+    <div class="journey-grid">
+      <ol class="journey-steps">
+        <li class="jstep" data-step="0"><span class="jn">1</span><div><h3>Build the employee picture</h3><p>Review employee records, departments, reporting lines and changes in employment.</p></div></li><li class="jstep" data-step="1"><span class="jn">2</span><div><h3>Bring time and people workflows together</h3><p>Work through leave requests, attendance corrections, onboarding tasks and employee notices.</p></div></li><li class="jstep" data-step="2"><span class="jn">3</span><div><h3>Review payroll in stages</h3><p>Move a payroll run through input review, calculation, approval and locking. Inspect the rules and adjustments behind the result.</p></div></li><li class="jstep" data-step="3"><span class="jn">4</span><div><h3>Keep a history you can inspect</h3><p>Review recorded changes and run the audit-history check. This supports investigation; it is not an external certification.</p></div></li>
+      </ol>
+      <div class="journey-stage">
+        <div class="jframe is-on" data-frame="0"><figure class="slot slot-screenshot " data-media-slot="journey-employees-hiw" data-slot-need="REAL DASHBOARD SCREENSHOT REQUIRED — Employees list" data-slot-route="/how-it-works/" data-slot-ratio="16:10" data-slot-resolution="2560×1600" data-slot-purpose="Show step 1: Build the employee picture">
+  <div class="slot-frame" style="--ar:16/10">
+    <span class="slot-tag"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Illustrative mock-up · sample data</span>
+    <div class="ui ui-app" aria-hidden="true">
+  <div class="ui-side">
+    <div class="ui-brand"><img src="/img/brand/hrms-icon-96.png" width="22" height="22" alt=""><b>HRMS</b></div>
+    <ul><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Dashboard</span></li><li class="on"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.8 2.9-6 6.5-6s6.5 2.2 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14.2c3 .2 5 2.2 5 5.3"/></svg><span>Employees</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="5" rx="1.2"/><rect x="2.5" y="16" width="6" height="5" rx="1.2"/><rect x="15.5" y="16" width="6" height="5" rx="1.2"/><path d="M12 8v4M5.5 16v-4h13v4"/></svg><span>Org chart</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Leave</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Attendance</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 5h10M7 9h10M9 5c4.5 0 6 1.6 6 4s-2 4-6 4H7l8 7"/></svg><span>Payroll</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span>Compliance rules</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 3"/></svg><span>Audit trail</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Documents</span></li></ul>
+    <div class="ui-sample">Sample data</div>
+  </div>
+  <div class="ui-main">
+    <div class="ui-top"><div><b>Employee central</b><small>24 records · sample data</small></div><div class="ui-top-r"><span class="up up-info">Demo persona · HR administrator</span><span class="ua ua-p">HA</span></div></div>
+    <div class="ui-body">
+  <div class="ui-tools"><span class="ui-search"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>Search employees</span><span class="up up-neutral">All departments</span><span class="up up-neutral">Active + notice</span><span class="ui-btn">+ Add employee</span></div>
+  <table class="ui-table"><thead><tr><th>ID</th><th>Name</th><th>Department</th><th>Designation</th><th>Reports to</th><th>Status</th></tr></thead><tbody>
+  <tr><td class="mono">EMP-0101</td><td><span class="ua ua-b">AS</span>Aarav S.</td><td>Finance</td><td>Payroll analyst</td><td>Meera K.</td><td><span class="up up-ok"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Active</span></td></tr><tr><td class="mono">EMP-0104</td><td><span class="ua ua-b">DR</span>Diya R.</td><td>People</td><td>HR generalist</td><td>Meera K.</td><td><span class="up up-ok"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Active</span></td></tr><tr><td class="mono">EMP-0107</td><td><span class="ua ua-b">KM</span>Kabir M.</td><td>Operations</td><td>Shift lead</td><td>Rohan P.</td><td><span class="up up-ok"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Active</span></td></tr><tr><td class="mono">EMP-0112</td><td><span class="ua ua-b">IN</span>Ishita N.</td><td>Sales</td><td>Account manager</td><td>Rohan P.</td><td><span class="up up-info">On leave</span></td></tr><tr><td class="mono">EMP-0118</td><td><span class="ua ua-b">VT</span>Vikram T.</td><td>Engineering</td><td>Developer</td><td>Neha J.</td><td><span class="up up-warn"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>Onboarding</span></td></tr><tr><td class="mono">EMP-0121</td><td><span class="ua ua-b">SA</span>Sana A.</td><td>Engineering</td><td>QA engineer</td><td>Neha J.</td><td><span class="up up-neutral">Notice period</span></td></tr>
+  </tbody></table></div>
+  </div>
+</div>
+    <span class="slot-dev" aria-hidden="true">REAL DASHBOARD SCREENSHOT REQUIRED — Employees list</span>
+  </div>
+  <figcaption>Step 1 · illustrative mock-up, sample data</figcaption>
+</figure></div><div class="jframe" data-frame="1"><figure class="slot slot-screenshot " data-media-slot="journey-leave-hiw" data-slot-need="REAL DASHBOARD SCREENSHOT REQUIRED — Leave requests" data-slot-route="/how-it-works/" data-slot-ratio="16:10" data-slot-resolution="2560×1600" data-slot-purpose="Show step 2: Bring time and people workflows together">
+  <div class="slot-frame" style="--ar:16/10">
+    <span class="slot-tag"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Illustrative mock-up · sample data</span>
+    <div class="ui ui-app" aria-hidden="true">
+  <div class="ui-side">
+    <div class="ui-brand"><img src="/img/brand/hrms-icon-96.png" width="22" height="22" alt=""><b>HRMS</b></div>
+    <ul><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Dashboard</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.8 2.9-6 6.5-6s6.5 2.2 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14.2c3 .2 5 2.2 5 5.3"/></svg><span>Employees</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="5" rx="1.2"/><rect x="2.5" y="16" width="6" height="5" rx="1.2"/><rect x="15.5" y="16" width="6" height="5" rx="1.2"/><path d="M12 8v4M5.5 16v-4h13v4"/></svg><span>Org chart</span></li><li class="on"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Leave</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Attendance</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 5h10M7 9h10M9 5c4.5 0 6 1.6 6 4s-2 4-6 4H7l8 7"/></svg><span>Payroll</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span>Compliance rules</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 3"/></svg><span>Audit trail</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Documents</span></li></ul>
+    <div class="ui-sample">Sample data</div>
+  </div>
+  <div class="ui-main">
+    <div class="ui-top"><div><b>Leave requests</b></div><div class="ui-top-r"><span class="up up-info">Demo persona · HR administrator</span><span class="ua ua-p">HA</span></div></div>
+    <div class="ui-body">
+  <div class="ui-split ui-split-wide">
+    <div class="ui-card">
+      <div class="ui-card-h"><b>Requests</b><small>Policy: Standard 2026</small></div>
+      <table class="ui-table ui-table-sm"><thead><tr><th>Employee</th><th>Type</th><th>Dates</th><th>Status</th></tr></thead><tbody>
+        <tr><td>Ishita N.</td><td>Earned leave</td><td>14–16 Apr</td><td><span class="up up-ok"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Approved</span></td></tr>
+        <tr><td>Kabir M.</td><td>Sick leave</td><td>22 Apr</td><td><span class="up up-warn"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>Pending</span></td></tr>
+        <tr><td>Diya R.</td><td>Casual leave</td><td>2 May</td><td><span class="up up-warn"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>Pending</span></td></tr>
+        <tr><td>Vikram T.</td><td>Loss of pay</td><td>9 Apr</td><td><span class="up up-info">Recorded</span></td></tr>
+      </tbody></table>
+    </div>
+    <div class="ui-card">
+      <div class="ui-card-h"><b>Balances · Kabir M.</b></div>
+      <div class="ui-bal"><span>Earned</span><i style="--p:60%"></i><b>9/15</b></div><div class="ui-bal"><span>Casual</span><i style="--p:50%"></i><b>4/8</b></div><div class="ui-bal"><span>Sick</span><i style="--p:83.33333333333334%"></i><b>5/6</b></div>
+      <div class="ui-note"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Holiday calendar: Maharashtra 2026</div>
+    </div>
+  </div></div>
+  </div>
+</div>
+    <span class="slot-dev" aria-hidden="true">REAL DASHBOARD SCREENSHOT REQUIRED — Leave requests</span>
+  </div>
+  <figcaption>Step 2 · illustrative mock-up, sample data</figcaption>
+</figure></div><div class="jframe" data-frame="2"><figure class="slot slot-screenshot " data-media-slot="journey-payroll-hiw" data-slot-need="REAL DASHBOARD SCREENSHOT REQUIRED — Payroll run in approval" data-slot-route="/how-it-works/" data-slot-ratio="16:10" data-slot-resolution="2560×1600" data-slot-purpose="Show step 3: Review payroll in stages">
+  <div class="slot-frame" style="--ar:16/10">
+    <span class="slot-tag"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Illustrative mock-up · sample data</span>
+    <div class="ui ui-app" aria-hidden="true">
+  <div class="ui-side">
+    <div class="ui-brand"><img src="/img/brand/hrms-icon-96.png" width="22" height="22" alt=""><b>HRMS</b></div>
+    <ul><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Dashboard</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.8 2.9-6 6.5-6s6.5 2.2 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14.2c3 .2 5 2.2 5 5.3"/></svg><span>Employees</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="5" rx="1.2"/><rect x="2.5" y="16" width="6" height="5" rx="1.2"/><rect x="15.5" y="16" width="6" height="5" rx="1.2"/><path d="M12 8v4M5.5 16v-4h13v4"/></svg><span>Org chart</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Leave</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Attendance</span></li><li class="on"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 5h10M7 9h10M9 5c4.5 0 6 1.6 6 4s-2 4-6 4H7l8 7"/></svg><span>Payroll</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span>Compliance rules</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 3"/></svg><span>Audit trail</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Documents</span></li></ul>
+    <div class="ui-sample">Sample data</div>
+  </div>
+  <div class="ui-main">
+    <div class="ui-top"><div><b>Payroll run · April</b></div><div class="ui-top-r"><span class="up up-info">Demo persona · Payroll reviewer</span><span class="ua ua-p">HA</span></div></div>
+    <div class="ui-body">
+  <ol class="ui-steps"><li class="done"><span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Inputs</li><li class="done"><span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Calculated</li><li class="cur"><span>3</span>Approved</li><li class=""><span>4</span>Locked</li></ol>
+  <div class="ui-split ui-split-wide">
+    <div class="ui-card ui-card-flush">
+      <table class="ui-table"><thead><tr><th>Employee</th><th class="r">Gross ₹</th><th class="r">Deductions ₹</th><th class="r">Net ₹</th><th class="r">vs March</th><th></th></tr></thead><tbody>
+      <tr><td>Aarav S.</td><td class="r mono">74,500</td><td class="r mono">9,860</td><td class="r mono"><b>64,640</b></td><td class="r mono">0</td><td></td></tr><tr><td>Diya R.</td><td class="r mono">58,000</td><td class="r mono">7,140</td><td class="r mono"><b>50,860</b></td><td class="r mono">0</td><td></td></tr><tr class="hl"><td>Kabir M.</td><td class="r mono">54,400</td><td class="r mono">6,100</td><td class="r mono"><b>48,300</b></td><td class="r mono">−1,820</td><td><span class="ui-why">Why?</span></td></tr><tr class="hl"><td>Ishita N.</td><td class="r mono">66,200</td><td class="r mono">8,450</td><td class="r mono"><b>57,750</b></td><td class="r mono">+3,000</td><td><span class="ui-why">Why?</span></td></tr><tr class="hl"><td>Vikram T.</td><td class="r mono">82,000</td><td class="r mono">11,300</td><td class="r mono"><b>68,000</b></td><td class="r mono">−2,730</td><td><span class="ui-why">Why?</span></td></tr>
+      </tbody></table>
+    </div>
+    <div class="ui-card">
+      <div class="ui-card-h"><b>Run details</b></div>
+      <div class="ui-rows">
+        <div><span>Rule version</span><b>v2 · effective 1 Apr</b></div>
+        <div><span>Maker</span><b>Diya R.</b></div>
+        <div><span>Checker</span><b>Aarav S.</b></div>
+        <div><span>Inputs</span><b>Reviewed ✓</b></div>
+      </div>
+      <div class="ui-actions"><span class="ui-btn ghost">Send back</span><span class="ui-btn">Approve run</span></div>
+    </div>
+  </div></div>
+  </div>
+</div>
+    <span class="slot-dev" aria-hidden="true">REAL DASHBOARD SCREENSHOT REQUIRED — Payroll run in approval</span>
+  </div>
+  <figcaption>Step 3 · illustrative mock-up, sample data</figcaption>
+</figure></div><div class="jframe" data-frame="3"><figure class="slot slot-screenshot " data-media-slot="journey-audit-hiw" data-slot-need="REAL DASHBOARD SCREENSHOT REQUIRED — Audit trail with history check" data-slot-route="/how-it-works/" data-slot-ratio="16:10" data-slot-resolution="2560×1600" data-slot-purpose="Show step 4: Keep a history you can inspect">
+  <div class="slot-frame" style="--ar:16/10">
+    <span class="slot-tag"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Illustrative mock-up · sample data</span>
+    <div class="ui ui-app" aria-hidden="true">
+  <div class="ui-side">
+    <div class="ui-brand"><img src="/img/brand/hrms-icon-96.png" width="22" height="22" alt=""><b>HRMS</b></div>
+    <ul><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Dashboard</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.8 2.9-6 6.5-6s6.5 2.2 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14.2c3 .2 5 2.2 5 5.3"/></svg><span>Employees</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="5" rx="1.2"/><rect x="2.5" y="16" width="6" height="5" rx="1.2"/><rect x="15.5" y="16" width="6" height="5" rx="1.2"/><path d="M12 8v4M5.5 16v-4h13v4"/></svg><span>Org chart</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Leave</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Attendance</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 5h10M7 9h10M9 5c4.5 0 6 1.6 6 4s-2 4-6 4H7l8 7"/></svg><span>Payroll</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span>Compliance rules</span></li><li class="on"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 3"/></svg><span>Audit trail</span></li><li class=""><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span>Documents</span></li></ul>
+    <div class="ui-sample">Sample data</div>
+  </div>
+  <div class="ui-main">
+    <div class="ui-top"><div><b>Recorded history</b></div><div class="ui-top-r"><span class="up up-info">Demo persona · Administrator</span><span class="ua ua-p">HA</span></div></div>
+    <div class="ui-body">
+  <div class="ui-tools"><span class="up up-neutral">Tenant: Sample Co.</span><span class="up up-neutral">All event types</span><span class="ui-btn"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>Run history check</span></div>
+  <ol class="ui-chain">
+    <li><span class="mono n">#0648</span><b>PayrollRunApproved</b><span>April run</span><span class="mono h">9f3c…a21e</span></li><li><span class="mono n">#0649</span><b>RuleVersionApproved</b><span>Salary components v2</span><span class="mono h">1b7d…e904</span></li><li><span class="mono n">#0650</span><b>LeaveApproved</b><span>EMP-0112 · 14–16 Apr</span><span class="mono h">c2a8…5f13</span></li><li><span class="mono n">#0651</span><b>RegularisationRequested</b><span>EMP-0107 · 18 Apr</span><span class="mono h">77e0…b6c9</span></li>
+  </ol>
+  <div class="ui-result"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><b>Sequence unchanged</b><span>651 events checked · tamper-evident check, not an audit certificate</span></div></div>
+  </div>
+</div>
+    <span class="slot-dev" aria-hidden="true">REAL DASHBOARD SCREENSHOT REQUIRED — Audit trail with history check</span>
+  </div>
+  <figcaption>Step 4 · illustrative mock-up, sample data</figcaption>
+</figure></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec"><div class="wrap">
+  <div class="sec-head reveal"><p class="eyebrow ">Your evaluation, step by step</p><h2>From first question to a clear decision.</h2></div>
+  <ol class="timeline reveal">
+    <li><span class="tl-n">1</span><div><h3>Bring this to the conversation</h3><p>One anonymised example of the work, the people who handle it and the result you need. Avoid passwords, account keys, private customer records or employee details.</p></div></li>
+    <li><span class="tl-n">2</span><div><h3>Watch the workflow with sample data</h3><p>Follow one record from beginning to end. Ask where information is stored, who can access it and which actions are simulated.</p></div></li>
+    <li><span class="tl-n">3</span><div><h3>Leave with a clearer decision</h3><p>Ask which steps work today, which depend on setup, and which are still product direction.</p></div></li>
+    <li><span class="tl-n">4</span><div><h3>Agree a written scope first</h3><p>Agree a written evaluation scope before considering a live rollout.</p></div></li>
+  </ol>
+  <div class="reveal"><div class="avail " role="note"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><p><strong>Availability.</strong> For evaluation with sample data. Production authentication and independent payroll-rule validation remain outstanding. Do not upload real employee or salary information to the demo.</p></div></div>
+</div></section><section class="cta-band" aria-labelledby="cta-band-h">
+  <div class="wrap cta-band-inner reveal">
+    <div class="cta-band-copy">
+      <p class="eyebrow on-dark">Next step</p>
+      <h2 id="cta-band-h">Bring one real workflow question.</h2>
+      <p>Bring your current HR process to a sample-data walkthrough. We can use that starting point to assess fit, show the relevant interface and make the remaining work clear.</p>
+      <div class="actions"><a class="btn btn-peach" href="/contact/" data-track="cta_click" data-label="Request a sample-data walkthrough" ><span>Request a sample-data walkthrough</span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      <p class="small">Start with a question, not a commitment. Use sample or anonymised information.</p>
+    </div>
+    <div class="cta-band-art"><img class="koala " src="/img/mascot/koala-04-900.webp" srcset="/img/mascot/koala-04-520.webp 343w, /img/mascot/koala-04-900.webp 594w" sizes="(max-width: 720px) 45vw, 280px" width="594" height="900" alt="" role="presentation" loading="lazy" decoding="async"></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-top">
+      <div class="f-brand">
+        <a class="logo on-dark" href="/" aria-label="HRMS home">
+  <img src="/img/brand/hrms-icon-96.png" width="40" height="40" alt="" />
+  <span class="logo-word"><span class="logo-name">HRMS</span><span class="logo-tag">Human Capital Operating System</span></span>
+</a>
+        <p class="f-tag">People operations you can explain.</p>
+        <div class="f-brochure">
+          <img src="/img/brochure/page-01-360.webp" width="72" height="102" alt="" loading="lazy" decoding="async">
+          <div><strong>The HRMS brochure</strong><span>14 pages · 7.3 MB PDF</span>
+          <a href="/brochure/" data-track="brochure_preview" data-label="footer">Preview</a> · <a href="/downloads/HRMS-Brochure-Sample-Data-Preview.pdf" download="HRMS-Brochure-Sample-Data-Preview.pdf" data-track="brochure_download" data-label="footer">Download</a></div>
+        </div>
+      </div>
+      <div class="f-col"><h2 class="f-h">Product</h2><ul><li><a href="/product/">Overview</a></li><li><a href="/product/people/">People operations</a></li><li><a href="/product/time/">Leave and attendance</a></li><li><a href="/product/payroll/">Payroll review</a></li><li><a href="/product/documents/">Documents</a></li><li><a href="/product/history/">History and review</a></li></ul></div>
+      <div class="f-col"><h2 class="f-h">Who it helps</h2><ul><li><a href="/who-it-helps/business-owners/">Business owners</a></li><li><a href="/who-it-helps/hr-and-payroll-teams/">HR and payroll teams</a></li><li><a href="/who-it-helps/managers-and-employees/">Managers and employees</a></li><li><a href="/how-it-works/">How it works</a></li><li><a href="/walkthrough/">Walkthrough</a></li></ul></div>
+      <div class="f-col"><h2 class="f-h">Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/trust/">Trust & availability</a></li><li><a href="/evaluation/">Evaluation</a></li><li><a href="/insights/">Insights</a></li><li><a href="/faqs/">FAQs</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+    </div>
+    <div class="f-avail"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><p>For evaluation with sample data. Production authentication and independent payroll-rule validation remain outstanding. Do not upload real employee or salary information to the demo.</p></div>
+    <div class="f-bottom">
+      <p>© 2026 HRMS. People operations you can explain.</p>
+      <ul><li><a href="/privacy/">Privacy notice</a></li><li><a href="/ai/">Product facts for AI systems</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul>
+    </div>
+  </div>
+</footer>
+<div class="mobile-cta" data-mobile-cta><a class="btn btn-primary" href="/contact/" data-track="mobile_cta" data-label="Request a sample-data walkthrough" ><span>Request a sample-data walkthrough</span><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+<div class="modal" data-modal hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-panel" data-modal-panel>
+    <div class="modal-head"><h2 id="modal-title" data-modal-title>Preview</h2><button class="icon-btn" data-modal-close aria-label="Close"><svg class="ic " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="modal-body" data-modal-body></div>
+  </div>
+</div>
+<script src="/js/site.js?v=mv22nhzv" defer></script>
+</body>
+</html>
